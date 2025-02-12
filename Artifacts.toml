@@ -1,0 +1,17 @@
+[[ITK]]
+arch = "x86_64"
+git-tree-sha1 = "368ec2d46162a70e3858c01169781d4952973e0e"
+libc = "glibc"
+os = "linux"
+
+    [[ITK.download]]
+    sha256 = "96b6253f06c2cfb67eb8abf6227ddd818377c459c6915c640742747f22a3922a"
+    url = "https://github.com/divital-coder/final_ITK_jll.jl/releases/download/ITK-v5.3.2+0/ITK.v5.3.2.x86_64-linux-gnu.tar.gz"
+[[ITK]]
+arch = "x86_64"
+git-tree-sha1 = "ee99da11a9f08654a8a2d53b4b0f237988a6d315"
+os = "windows"
+
+    [[ITK.download]]
+    sha256 = "ad1ad6da91ad8f0797945eed1c1138f17c3464b047892f0cfb51becb484e2fd6"
+    url = "https://github.com/divital-coder/final_ITK_jll.jl/releases/download/ITK-v5.3.2+0/ITK.v5.3.2.x86_64-w64-mingw32.tar.gz"
